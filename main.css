@@ -21,7 +21,7 @@ body {
   text-align: center;
   background-color: var(--black-dark);
   width: 100%;
-  max-width: max-content;
+  max-width: 455px;
   margin: 4rem auto;
   padding: 1rem 2rem;
   border-radius: 1rem;
@@ -55,7 +55,18 @@ body {
   margin: 0 0.5rem;
   padding: 0.5rem 1rem;
 
+  font-size: 1.125rem;
   font-weight: 700;
 
   transition: 0.4s;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button.active {
+  background-color: var(--dark);
+  color: var(--light);
+  cursor: default;
 }
