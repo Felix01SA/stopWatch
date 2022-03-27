@@ -40,7 +40,7 @@ function start() {
 function stop() {
   clearInterval(interval)
 
-  start_btn.classList.toggle('active')
+  start_btn.classList.remove('active')
 
   interval = null
 }
